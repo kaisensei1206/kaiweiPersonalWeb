@@ -58,6 +58,17 @@ const Portfolio = () => {
               subtitle={
                 "This wonderful website and my first personal website using React."
               }
+              
+            />
+            <ProtfolioCard
+              imageUrl={demo6}
+              websiteUrl={"https://kaisensei1206.github.io/web_nintendo/"}
+              githubUrl={"https://github.com/kaisensei1206/web_nintendo"}
+              title={"kaisensei Personal Website"}
+              subtitle={
+                "This wonderful website and my first personal website using React."
+              }
+              
             />
           </div>
         </div>
