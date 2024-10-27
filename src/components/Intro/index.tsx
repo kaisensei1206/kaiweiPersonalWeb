@@ -39,17 +39,13 @@ const Intro = () => {
               to enhance my Front-end framework programming skills proficiency.
             </p>
             <p>
-              As an all-round student, I enjoy to serve and to lead. I was
-              privileged to be elected as the President of the Student Council
-              in secondary school, I had my stage to demonstrate a sense of my
-              responsibility and leadership. Apart with, it is a opportunities
-              for me to work with my Council’s member and the others in
-              organizing activities. It is also an occasion training my brain to
-              think logically and effective. By the end of a year, I had already
-              been amply rewarded for this success. In my experience, have a
-              excellent communication skills and logically thinking skills not
-              only beneficial in the programming engineer’s world, it but also
-              beneficial in our society.
+            Academically, I have excelled in logical thinking and programming skills.
+            I find great fulfillment in problem-solving, whether it’s executing a programming 
+            solution perfectly or tackling a challenging question. While I initially focused 
+            on front-end development, in my third year, I began exploring backend technologies
+            like Node.js and databases, which sparked a growing interest. Since then, I have 
+            dedicated myself to strengthening my backend development skills, motivated by the 
+            potential impact they can have in both the tech industry and society.
             </p>
             <p>
               To grow further, I am eager to become involved in community work.
