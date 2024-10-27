@@ -5,8 +5,8 @@ import ProtfolioCard from "./PortfolioCard";
 import demo1 from "../../image/1.png";
 import demo2 from "../../image/2.png";
 import demo3 from "../../image/3.png";
-import demo5 from "../../image/4.png";
-import demo6 from "../../image/5.png";
+import demo5 from "../../image/IMG_6323.png";
+import demo6 from "../../image/personal_image.jpg";
 import demo7 from "../../image/6.png";
 import demo4 from "../../image/discord-logo.jpg";
 import demo8 from "../../image/7.png";
@@ -32,10 +32,10 @@ const Portfolio = () => {
             <ProtfolioCard
               imageUrl={demo5}
               websiteUrl={"https://messager.sawajiri-ng.net/"}
-              githubUrl={"https://github.com/NG-KWAN-LOK/IS_P2P_Chat"}
+              githubUrl={"https://github.com/kaisensei1206/Whisprtale"}
               title={"Messager"}
               subtitle={
-                "Real Time Secured Messaging Web Application using React, Socket.io and cryptosystem."
+                "The system enables story creation through voice and text input, utilizing Whisper API, ChatGPT LLM API, and DALL-E."
               }
             />
 
@@ -53,7 +53,7 @@ const Portfolio = () => {
             <ProtfolioCard
               imageUrl={demo6}
               websiteUrl={"https://www.sawajiri-ng.net/"}
-              githubUrl={"https://github.com/NG-KWAN-LOK/PersonalWebsite"}
+              githubUrl={"https://github.com/kaisensei1206/kaiweiPersonalWeb"}
               title={"kaisensei Personal Website"}
               subtitle={
                 "This wonderful website and my first personal website using React."
