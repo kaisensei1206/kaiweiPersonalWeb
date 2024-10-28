@@ -47,7 +47,7 @@ const Portfolio = () => {
               githubUrl={"https://github.com/kaisensei1206/KaisenseiBot"}
               title={"KaisenseiBot"}
               subtitle={
-                "A full function discord music bot using Node.js. This app deploying on Heroku."
+                "A full function discord music bot using Node.js. "
               }
             />
             <ProtfolioCard
@@ -56,7 +56,7 @@ const Portfolio = () => {
               githubUrl={"https://github.com/kaisensei1206/kaiweiPersonalWeb"}
               title={"kaisensei Personal Website"}
               subtitle={
-                "This wonderful website and my first personal website using React."
+                "This wonderful website is my first personal website using React."
               }
               
             />
