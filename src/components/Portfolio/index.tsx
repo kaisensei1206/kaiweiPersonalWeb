@@ -31,7 +31,7 @@ const Portfolio = () => {
           <div className={styles.infoSection_container}>
             <ProtfolioCard
               imageUrl={demo5}
-              websiteUrl={""}
+              websiteUrl={"https://github.com/kaisensei1206/Whisprtale"}
               githubUrl={"https://github.com/kaisensei1206/Whisprtale"}
               title={"說故事Whisprtale"}
               subtitle={
@@ -42,7 +42,7 @@ const Portfolio = () => {
             <ProtfolioCard
               imageUrl={demo4}
               websiteUrl={
-                ""
+                "https://github.com/kaisensei1206/KaisenseiBot"
               }
               githubUrl={"https://github.com/kaisensei1206/KaisenseiBot"}
               title={"KaisenseiBot"}
