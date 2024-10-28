@@ -7,7 +7,7 @@ import demo2 from "../../image/2.png";
 import demo3 from "../../image/3.png";
 import demo5 from "../../image/IMG_6323.png";
 import demo6 from "../../image/personal_image.jpg";
-import demo7 from "../../image/6.png";
+import demo7 from "../../image/nintendo_img.jpg";
 import demo4 from "../../image/discord-logo.jpg";
 import demo8 from "../../image/7.png";
 
@@ -31,9 +31,9 @@ const Portfolio = () => {
           <div className={styles.infoSection_container}>
             <ProtfolioCard
               imageUrl={demo5}
-              websiteUrl={"https://messager.sawajiri-ng.net/"}
+              websiteUrl={""}
               githubUrl={"https://github.com/kaisensei1206/Whisprtale"}
-              title={"Messager"}
+              title={"說故事Whisprtale"}
               subtitle={
                 "The system enables story creation through voice and text input, utilizing Whisper API, ChatGPT LLM API, and DALL-E."
               }
@@ -42,17 +42,17 @@ const Portfolio = () => {
             <ProtfolioCard
               imageUrl={demo4}
               websiteUrl={
-                "https://discord.com/api/oauth2/authorize?client_id=801768804148314113&permissions=3287040&scope=bot"
+                ""
               }
-              githubUrl={"https://github.com/NG-KWAN-LOK/Discord_SawaBot"}
-              title={"Discord_SawaBot"}
+              githubUrl={"https://github.com/kaisensei1206/KaisenseiBot"}
+              title={"KaisenseiBot"}
               subtitle={
                 "A full function discord music bot using Node.js. This app deploying on Heroku."
               }
             />
             <ProtfolioCard
               imageUrl={demo6}
-              websiteUrl={"https://www.sawajiri-ng.net/"}
+              websiteUrl={""}
               githubUrl={"https://github.com/kaisensei1206/kaiweiPersonalWeb"}
               title={"kaisensei Personal Website"}
               subtitle={
@@ -61,12 +61,12 @@ const Portfolio = () => {
               
             />
             <ProtfolioCard
-              imageUrl={demo6}
+              imageUrl={demo7}
               websiteUrl={"https://kaisensei1206.github.io/web_nintendo/"}
               githubUrl={"https://github.com/kaisensei1206/web_nintendo"}
-              title={"kaisensei Personal Website"}
+              title={"遊戲靜態網頁"}
               subtitle={
-                "This wonderful website and my first personal website using React."
+                "homepage of a well-known gaming website and host it on GitHub Pages"
               }
               
             />
