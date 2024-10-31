@@ -4,9 +4,12 @@ service: default
 instance_class: F1
 
 handlers:
+  # 匹配所有靜態資源文件
   - url: /(.*\..+)$
     static_files: build/\1
     upload: build/(.*\..+)$
-  - url: .*
+
+  # 將所有其他請求路由到 index.html
+  - url: /.*
     static_files: build/index.html
     upload: build/index.html
