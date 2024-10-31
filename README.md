@@ -1,13 +1,6 @@
-# Demovid
-
-
-
-
-https://github.com/user-attachments/assets/96dd313d-85e8-450d-9701-80fb6e726b66
-
-
 
 # app page
+https://kaisenseiwebsite-440314.de.r.appspot.com/
 not yet
 # Getting Started with Create React App
 This project was bootstrapped with Create React App.
