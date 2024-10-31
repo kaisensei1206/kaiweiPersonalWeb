@@ -1,7 +1,7 @@
 
 # app page
-https://kaisenseiwebsite-440314.de.r.appspot.com/
-not yet
+## https://kaisenseiwebsite-440314.de.r.appspot.com/
+
 # Getting Started with Create React App
 This project was bootstrapped with Create React App.
 
