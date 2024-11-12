@@ -2,9 +2,9 @@ import React, { useState, useCallback } from "react";
 import styles from "./style.module.scss";
 
 import ProtfolioCard from "./PortfolioCard";
-import demo1 from "../../image/1.png";
-import demo2 from "../../image/2.png";
-import demo3 from "../../image/3.png";
+import demo1 from "../../image/brainLib.png";
+import demo2 from "/Users/kaisensei/web/kaiweiPersonalWeb/src/image/ai-image-detec.png";
+import demo3 from "/Users/kaisensei/web/kaiweiPersonalWeb/src/image/ai-image-detec.png";
 import demo5 from "../../image/IMG_6323.png";
 import demo6 from "../../image/personal_image.jpg";
 import demo7 from "../../image/nintendo_img.jpg";
@@ -67,9 +67,41 @@ const Portfolio = () => {
               title={"遊戲靜態網頁"}
               subtitle={
                 "homepage of a well-known gaming website and host it on GitHub Pages"
+             
               }
+              />
+              <ProtfolioCard
+              imageUrl={demo1}
+              websiteUrl={"https://github.com/kaisensei1206/BrainLib"}
+              githubUrl={"https://github.com/kaisensei1206/BrainLib"}
+              title={"Brainlib"}
+              subtitle={
+                "A social knowledge-sharing platform for students, designed to offer features such as member management, post publishing, topic browsing, event participation, and a real-time chatroom."
+             
+              }
+              />
+              <ProtfolioCard
+              imageUrl={demo2}
+              websiteUrl={"https://kaisensei1206.github.io/AI-Image-Detector/"}
+              githubUrl={"https://github.com/kaisensei1206/AI-Image-Detector"}
+              title={"AI-Image-Detector"}
+              subtitle={
+                "returning color and tag information for the image using Imagga API"
+              }
+              />
+              <ProtfolioCard
+              imageUrl={demo3}
+              websiteUrl={"https://kaisensei1206.github.io/AI-Image-Detector/"}
+              githubUrl={"https://github.com/kaisensei1206/Google-Gemini-Clone"}
+              title={"Google-Gemini-Clone"}
+              subtitle={
+                "returning color and tag information for the image using Imagga API"
+              }
+              />
               
-            />
+              
+              
+            
           </div>
         </div>
       </div>
