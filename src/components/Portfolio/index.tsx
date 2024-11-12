@@ -3,8 +3,8 @@ import styles from "./style.module.scss";
 
 import ProtfolioCard from "./PortfolioCard";
 import demo1 from "../../image/brainLib.png";
-import demo2 from "/Users/kaisensei/web/kaiweiPersonalWeb/src/image/ai_detec.png";
-import demo3 from "/Users/kaisensei/web/kaiweiPersonalWeb/src/image/ai_detec.png";
+import demo2 from "../../image/ai_detec.png";
+import demo3 from "../../image/ai_detec.png";
 import demo5 from "../../image/IMG_6323.png";
 import demo6 from "../../image/personal_image.jpg";
 import demo7 from "../../image/nintendo_img.jpg";
