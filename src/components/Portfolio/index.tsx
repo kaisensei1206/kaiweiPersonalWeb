@@ -3,8 +3,8 @@ import styles from "./style.module.scss";
 
 import ProtfolioCard from "./PortfolioCard";
 import demo1 from "../../image/brainLib.png";
-import demo2 from "/Users/kaisensei/web/kaiweiPersonalWeb/src/image/ai-image-detec.png";
-import demo3 from "/Users/kaisensei/web/kaiweiPersonalWeb/src/image/ai-image-detec.png";
+import demo2 from "/Users/kaisensei/web/kaiweiPersonalWeb/src/image/ai_detec.png";
+import demo3 from "/Users/kaisensei/web/kaiweiPersonalWeb/src/image/ai_detec.png";
 import demo5 from "../../image/IMG_6323.png";
 import demo6 from "../../image/personal_image.jpg";
 import demo7 from "../../image/nintendo_img.jpg";
@@ -76,7 +76,7 @@ const Portfolio = () => {
               githubUrl={"https://github.com/kaisensei1206/BrainLib"}
               title={"Brainlib"}
               subtitle={
-                "A social knowledge-sharing platform for students, designed to offer features such as member management, post publishing, topic browsing, event participation, and a real-time chatroom."
+                "A social knowledge-sharing platform for students"
              
               }
               />
