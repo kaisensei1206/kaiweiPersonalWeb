@@ -9,7 +9,7 @@ import demo5 from "../../image/IMG_6323.png";
 import demo6 from "../../image/personal_image.jpg";
 import demo7 from "../../image/nintendo_img.jpg";
 import demo4 from "../../image/discord-logo.jpg";
-import demo8 from "../../image/7.png";
+import demo8 from "C:\Users\ASUS\web\kaiweiPersonalWeb\src\image\gemini.jpg";
 
 const Portfolio = () => {
   return (
@@ -90,7 +90,7 @@ const Portfolio = () => {
               }
               />
               <ProtfolioCard
-              imageUrl={demo3}
+              imageUrl={demo8}
               websiteUrl={"https://kaisensei1206.github.io/Google-Gemini-Clone/"}
               githubUrl={"https://github.com/kaisensei1206/Google-Gemini-Clone"}
               title={"Google-Gemini-Clone"}
