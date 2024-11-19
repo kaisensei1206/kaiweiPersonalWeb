@@ -31,7 +31,7 @@ const Portfolio = () => {
           <div className={styles.infoSection_container}>
             <ProtfolioCard
               imageUrl={demo5}
-              websiteUrl={"https://github.com/kaisensei1206/Whisprtale"}
+              websiteUrl={""} 
               githubUrl={"https://github.com/kaisensei1206/Whisprtale"}
               title={"說故事Whisprtale"}
               subtitle={
@@ -42,7 +42,7 @@ const Portfolio = () => {
             <ProtfolioCard
               imageUrl={demo4}
               websiteUrl={
-                "https://github.com/kaisensei1206/KaisenseiBot"
+                ""
               }
               githubUrl={"https://github.com/kaisensei1206/KaisenseiBot"}
               title={"KaisenseiBot"}
@@ -52,7 +52,7 @@ const Portfolio = () => {
             />
             <ProtfolioCard
               imageUrl={demo6}
-              websiteUrl={""}
+              websiteUrl={"https://kaisenseiwebsite-440314.de.r.appspot.com/"}
               githubUrl={"https://github.com/kaisensei1206/kaiweiPersonalWeb"}
               title={"kaisensei Personal Website"}
               subtitle={
@@ -72,7 +72,7 @@ const Portfolio = () => {
               />
               <ProtfolioCard
               imageUrl={demo1}
-              websiteUrl={"https://github.com/kaisensei1206/BrainLib"}
+              websiteUrl={""}
               githubUrl={"https://github.com/kaisensei1206/BrainLib"}
               title={"Brainlib"}
               subtitle={
@@ -91,11 +91,11 @@ const Portfolio = () => {
               />
               <ProtfolioCard
               imageUrl={demo3}
-              websiteUrl={"https://kaisensei1206.github.io/AI-Image-Detector/"}
+              websiteUrl={"https://kaisensei1206.github.io/Google-Gemini-Clone/"}
               githubUrl={"https://github.com/kaisensei1206/Google-Gemini-Clone"}
               title={"Google-Gemini-Clone"}
               subtitle={
-                "returning color and tag information for the image using Imagga API"
+                "Google-Gemini-Clone using google Api"
               }
               />
               

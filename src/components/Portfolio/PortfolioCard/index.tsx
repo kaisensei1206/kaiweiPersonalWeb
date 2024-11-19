@@ -32,20 +32,26 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({
             </div>
           </div>
           <div className={styles.container_item_container_cover_botton}>
-            <a
-              className={styles.container_item_container_cover_botton_demoBtn}
-              href={websiteUrl}
-              target={"_blank"}
-            >
-              Demo
-            </a>
-            <a
-              className={styles.container_item_container_cover_botton_GithubBtn}
-              href={githubUrl}
-              target={"_blank"}
-            >
-              Github
-            </a>
+            {websiteUrl && (
+              <a
+                className={styles.container_item_container_cover_botton_demoBtn}
+                href={websiteUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Demo
+              </a>
+            )}
+            {githubUrl && (
+              <a
+                className={styles.container_item_container_cover_botton_GithubBtn}
+                href={githubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github
+              </a>
+            )}
           </div>
         </div>
       </div>
