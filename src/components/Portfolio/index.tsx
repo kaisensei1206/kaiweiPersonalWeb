@@ -9,7 +9,7 @@ import demo5 from "../../image/IMG_6323.png";
 import demo6 from "../../image/personal_image.jpg";
 import demo7 from "../../image/nintendo_img.jpg";
 import demo4 from "../../image/discord-logo.jpg";
-import demo8 from "C:\Users\ASUS\web\kaiweiPersonalWeb\src\image\gemini.jpg";
+import demo8 from "../../image/gemini.jpg";
 
 const Portfolio = () => {
   return (
