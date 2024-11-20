@@ -5,7 +5,7 @@ import ProtfolioCard from "./PortfolioCard";
 import demo1 from "../../image/brainLib.png";
 import demo2 from "../../image/ai_detec.png";
 import demo3 from "../../image/ai_detec.png";
-import demo5 from "../../image/image/whisper.jpg";
+import demo5 from "../../image/whisper.jpg";
 import demo6 from "../../image/personal_image.jpg";
 import demo7 from "../../image/nintendo_img.jpg";
 import demo4 from "../../image/discord-logo.jpg";
