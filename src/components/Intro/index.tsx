@@ -22,38 +22,39 @@ const Intro = () => {
         <div className={styles.infoSection}>
           <div className={styles.infoSection_container}>
             <p>
-              Growing up in Vietnam, I strongly believe that computer have had
-              a profound impact on modern human history. Computers make life
-              easier for human being in various ways. I want to create my own
-              webs and apps. Wherefore this shot in my life, I am interested in
-              Front-end Web Developer.
+            Growing up in Vietnam, I strongly believe that computers have had
+            a profound impact on modern human history. Computers make life
+            easier for human beings in various ways. I want to create my own
+            webs and apps. Wherefore this shot in my life, I am interested in
+            becoming a Software Engineer Developer.
             </p>
             <p>
-              Academically, I have excelled in Logic Thinking and done well in
-              Mathematics and Programming skills. I am fulfilling and satisfying
-              after solving a question. I enjoy the process of looking for
-              programming as perfect executions and done a Maths problem. Become
-              a Front-end lover, I know that I should devote myself
-              wholeheartedly to learning Front-end framework likes React and Vue
-              to get into the Front-end’s world, so I have made a special effort
-              to enhance my Front-end framework programming skills proficiency.
+            Academically, I have excelled in Logic Thinking and done well in
+            Mathematics and Programming skills. I am fulfilling and satisfied
+            after solving a question. I enjoy the process of looking for
+            programming problem. 
+            Becoming a Software Engineer Developer, I know that I should devote 
+            myself wholeheartedly to learning various programming technologies 
+            and frameworks to get into the world of software engineering. 
+            Therefore, I have made a special effort to enhance my proficiency 
+            in programming skills.
             </p>
             <p>
             Academically, I have excelled in logical thinking and programming skills.
             I find great fulfillment in problem-solving, whether it’s executing a programming 
             solution perfectly or tackling a challenging question. While I initially focused 
-            on front-end development, in my third year, I began exploring backend technologies
+            on software engineering, in my third year, I began exploring backend technologies
             like Node.js and databases, which sparked a growing interest. Since then, I have 
             dedicated myself to strengthening my backend development skills, motivated by the 
             potential impact they can have in both the tech industry and society.
             </p>
             <p>
-              To grow further, I am eager to become involved in community work.
-              I participated in flag selling every years when I stayed in Vietname
-              . Also I have worked as a volunteer in Elderly Home in Taiwan.
-              I have developed a sense of empathy. I strongly believe that I
-              have to learn to put ourselves into others’ shoes and learn to
-              make contribution to our society.
+            To grow further, I am eager to become involved in community work.
+            I participated in flag selling every year when I stayed in Vietnam. 
+            Also, I have worked as a volunteer in an Elderly Home in Taiwan.
+            I have developed a sense of empathy. I strongly believe that I
+            have to learn to put ourselves into others’ shoes and learn to
+            make contributions to our society.
             </p>
             <p>
               I believe that I can showcase my talent to stand in technology and
