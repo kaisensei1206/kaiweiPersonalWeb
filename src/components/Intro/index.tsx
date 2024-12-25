@@ -51,7 +51,7 @@ const Intro = () => {
             <p>
             To grow further, I am eager to become involved in community work.
             I participated in flag selling every year when I stayed in Vietnam. 
-            Also, I have worked as a volunteer in an Elderly Home in Taiwan.
+            Also, I have worked as a volunteer in Zhongli Family Center in Taiwan.
             I have developed a sense of empathy. I strongly believe that I
             have to learn to put ourselves into others’ shoes and learn to
             make contributions to our society.
