@@ -27,8 +27,8 @@ const OtherSkill = () => {
               subtitle={"Finish homework and presentation just use it."}
             />
             <OtherSkillCard
-              title={"Unity"}
-              subtitle={"I used this to finish my cool final year project!"}
+              title={"Photographer"}
+              subtitle={"I'm passionate about photography."}
             />
             <OtherSkillCard
               title={"Adobe Photoshop"}
