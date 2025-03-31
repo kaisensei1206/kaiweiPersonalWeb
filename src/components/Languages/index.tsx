@@ -21,8 +21,8 @@ const Languages = () => {
         </div>
         <div className={styles.infoSection}>
           <div className={styles.infoSection_container}>
-            <LanguagesCard title={"Vietnamese"} subtitle={"Mother tongue"} />
-            <LanguagesCard title={"Mandarin"} subtitle={"Fluent spoken"} />
+            <LanguagesCard title={"Vietnamese"} subtitle={"not good spoken"} />
+            <LanguagesCard title={"Mandarin"} subtitle={"Mother tongue"} />
             <LanguagesCard
               title={"English "}
               subtitle={"Fluent spoken and written"}
