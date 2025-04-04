@@ -1,6 +1,6 @@
 
 # app page
-## [https://kaisenseiwebsite-440314.de.r.appspot.com/]([https://kaisenseiweb.de.r.appspot.com/](https://kaisenseiwebsite-440314.de.r.appspot.com/))
+## [https://kaisenseiwebsite-440314.de.r.appspot.com/]([https://kaisenseiweb.de.r.appspot.com/])
 
 # Getting Started with Create React App
 This project was bootstrapped with Create React App.
