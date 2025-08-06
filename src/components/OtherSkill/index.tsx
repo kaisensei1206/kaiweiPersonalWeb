@@ -36,7 +36,7 @@ const OtherSkill = () => {
             />
             <OtherSkillCard
               title={"Adobe Premiere"}
-              subtitle={"I was a former Campus TV's cutter."}
+              subtitle={"I was a former mother school video cutter."}
             />
             <OtherSkillCard
               title={"Adobe Illustrator"}

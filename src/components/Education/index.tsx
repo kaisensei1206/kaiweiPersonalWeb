@@ -30,7 +30,7 @@ const Education = () => {
                 position='Bachelor Information management'
                 location='Taoyuan, ROC'
                 info={
-                  "• back-end development of final project using mongodb, APIs integration techniques both JavaScript & TypeScript.\n• Project leders& Project Designer , Back-end team members  ."
+                  "• back-end development of final project using mongodb, APIs integration techniques  JavaScript \n• Project leders& Project Designer , Back-end team members  ."
                 }
               />
               <EducationCard

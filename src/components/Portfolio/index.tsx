@@ -73,22 +73,15 @@ const Portfolio = () => {
               <ProtfolioCard
               imageUrl={demo1}
               websiteUrl={""}
-              githubUrl={"https://github.com/kaisensei1206/BrainLib"}
+              githubUrl={""}
               title={"Brainlib"}
               subtitle={
                 "A social knowledge-sharing platform for students"
              
               }
               />
-              <ProtfolioCard
-              imageUrl={demo2}
-              websiteUrl={"https://kaisensei1206.github.io/AI-Image-Detector/"}
-              githubUrl={"https://github.com/kaisensei1206/AI-Image-Detector"}
-              title={"AI-Image-Detector"}
-              subtitle={
-                "returning color and tag information for the image using Imagga API"
-              }
-              />
+
+
               <ProtfolioCard
               imageUrl={demo8}
               websiteUrl={"https://kaisensei1206.github.io/Google-Gemini-Clone/"}

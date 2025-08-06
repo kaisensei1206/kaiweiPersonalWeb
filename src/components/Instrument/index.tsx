@@ -22,9 +22,9 @@ const Instrument = () => {
         <div className={styles.infoSection}>
           <div className={styles.infoSection_container}>
             <InstrumentCard
-              title={"Scotland Bagpipes"}
+              title={"pinao"}
               subtitle={
-                "Former Scotland Bagpipes Player at Scout Association Of Vietnam"
+                "used to played it"
               }
             />
             <InstrumentCard

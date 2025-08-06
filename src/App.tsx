@@ -2,7 +2,6 @@ import styles from "./style.module.scss";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Intro from "./components/Intro";
-import Skill from "./components/Skill";
 import OtherSkill from "./components/OtherSkill";
 import Education from "./components/Education";
 import Instrument from "./components/Instrument";
@@ -18,7 +17,6 @@ function App() {
       <div className={styles.content}>
         <Home />
         <Intro />
-        <Skill />
         <OtherSkill />
        
         <Education />

@@ -29,14 +29,14 @@ const Home = () => {
                 <span>范凱崴</span>
               </div>
               <div className={styles.iconSection_container_subTitle}>
-                Achieve to become a software engineer Developer
+                
               </div>
             </div>
             <div className={styles.infoSection_container_footer}>
               <hr className={styles.infoSection_container_footer_line} />
               <div className={styles.infoSection_container_footer_contact}>
-                <ContactCard title="Nationality" text="Vietnam" />
-                <ContactCard title="Location" text="Taipei, ROC" />
+                <ContactCard title="Nationality" text="Taiwan" />
+                <ContactCard title="Location" text="Taipei" />
                 <ContactCard
                   title="Instagram"
                   text="@i.willy.want2sleep"
@@ -47,11 +47,8 @@ const Home = () => {
                   text="Fan kai wei"
                   url="https://www.linkedin.com/in/%E5%87%B1%E5%B4%B4-%E8%8C%83-383241334/"
                 />
-                <ContactCard
-                  title="Github"
-                  text="kai wei"
-                  url="https://github.com/kaisensei1206/"
-                />
+
+
               </div>
             </div>
           </div>
