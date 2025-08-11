@@ -15,23 +15,42 @@
     - name: 複製 Git Repo
       git:
         repo: https://github.com/kaisensei1206/kaiweiPersonalWeb.git  # ← 改成你的 GitHub 專案網址
-        dest: /etc/systemd/system/myapp.service                 # ← 如果要換資料夾名稱可改
+        dest: /home/ubuntu/kaiweiPersonalWeb               # ← 如果要換資料夾名稱可改
         version: main                           # ← 如果不是 main branch，要改成 branch 名稱
 
+
+    # 4. 修正權限
+    - name: 修正專案資料夾權限
+      file:
+        path: /home/ubuntu/kaiweiPersonalWeb
+        owner: ubuntu
+        group: ubuntu
+        recurse: yes
+
+    # 5. 安裝依賴
+    - name: 安裝 npm 依賴
+      npm:
+        path: /home/ubuntu/kaiweiPersonalWeb
+
+    # 6. 建立 production build
+    - name: 建立 production build
+      command: npm run build
+      args:
+        chdir: /home/ubuntu/kaiweiPersonalWeb
     - name: 建立 systemd 服務檔
       copy:
         dest: /etc/systemd/system/myapp.service # ← "myapp" 可以換成你的應用名稱
         content: |
           [Unit]
-          Description=myWebsite           # ← 描述可以改成你的專案名
+          Description=myWebsite           
           After=network.target
 
           [Service]
-          ExecStart=/usr/bin/node /home/ubuntu/app/server.js        # ← 如果啟動指令不同要改，例如 `node server.js`
-          WorkingDirectory=ExecStart=/home/ubuntu/app # ← 跟上面 git dest 相同
+          ExecStart=/usr/bin/node /home/ubuntu/kaiweiPersonalWeb/server.js        
+          WorkingDirectory=/home/ubuntu/kaiweiPersonalWeb     
           Restart=always
-          User=ubuntu                           # ← 跑服務的使用者（通常 ubuntu 就好）
-          Environment=NODE_ENV=production       # ← 如果要加其他環境變數在這裡
+          User=ubuntu                          
+          Environment=NODE_ENV=production       
           StandardOutput=syslog
           StandardError=syslog
           SyslogIdentifier=myapp
@@ -45,33 +64,38 @@
 
     - name: 啟動並啟用 myapp 服務
       systemd:
-        name: myapp                             # ← 跟上面 systemd 檔案名稱一致
+        name: myapp                             
         state: started
         enabled: yes
         
     # 7. 安裝 Caddy
-    - name: 安裝 Caddy 所需工具
-      apt:
-        name: [debian-keyring, debian-archive-keyring, apt-transport-https, curl]
+    - name: 安裝必要套件
+      ansible.builtin.apt:
+        name:
+          - debian-keyring
+          - debian-archive-keyring
+          - apt-transport-https
+          - curl
         state: present
-
-    - name: 新增 Caddy GPG 金鑰
-      shell: |
-        curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/gpg.key' \
-        | gpg --dearmor -o /usr/share/keyrings/caddy-stable-archive-keyring.gpg
-      args:
-        warn: false
-
-    - name: 新增 Caddy 軟體源
-      shell: |
-        curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/debian.deb.txt' \
-        | tee /etc/apt/sources.list.d/caddy-stable.list
-      args:
-        warn: false
-
-    - name: 更新套件並安裝 Caddy
-      apt:
         update_cache: yes
+
+    - name: 新增 Caddy GPG 金鑰（有就跳過）
+      ansible.builtin.shell: |
+        curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/gpg.key' \
+        | sudo gpg --dearmor -o /usr/share/keyrings/caddy-stable-archive-keyring.gpg
+      args:
+        creates: /usr/share/keyrings/caddy-stable-archive-keyring.gpg
+    - name: 新增 Caddy 軟體來源
+      ansible.builtin.shell: |
+        curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/debian.deb.txt' \
+        | sudo tee /etc/apt/sources.list.d/caddy-stable.list
+
+    - name: 更新 apt
+      ansible.builtin.apt:
+        update_cache: yes
+
+    - name: 安裝 Caddy
+      ansible.builtin.apt:
         name: caddy
         state: present
 
@@ -80,7 +104,7 @@
       copy:
         dest: /etc/caddy/Caddyfile
         content: |
-          :first. {
+          :80 {
               reverse_proxy localhost:8080
           }
 
